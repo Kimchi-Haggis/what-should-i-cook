@@ -11,8 +11,9 @@ const Hero = (props: Props) => {
           </h1>
           <div className="mb-8 leading-relaxed">
             <p>Are you feeling bored to cook same things everyday?</p>
-            <p>Do you have so many left overs in your fridge?</p>
-            <p>Have no ideas where to start for cooking?</p>
+            <p>Do you want to clear off the ingredients in your fridge?</p>
+            <p>Have no ideas what to do for starting your cooking?</p>
+            <p className='font-bold'>Simply type the ingrident you have and explore the recipes!</p>
           </div>
           <div className="flex justify-center">
           </div>
