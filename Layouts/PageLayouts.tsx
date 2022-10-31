@@ -1,9 +1,9 @@
-import Blog from '@components/common/Section/Blog';
-import Contact from '@components/common/Section/Contact';
-import Footer from '@components/common/Section/Footer';
+import Contact from '@components/section/Contact';
+import Footer from '@components/section/Footer';
 import Navbar from '@components/common/Navbar/Navbar';
-import Hero from '@components/common/Section/Hero';
+import Hero from '@components/section/Hero';
 import React from 'react'
+import TryThis from '@components/section/tryThis';
 
 type Props = {}
 
@@ -12,7 +12,7 @@ const PageLayouts = (props: Props) => {
     <>
       <Navbar />
       <Hero />
-      <Blog />
+      <TryThis />
       <Contact />
       <Footer />
     </>
