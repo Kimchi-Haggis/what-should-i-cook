@@ -1,5 +1,4 @@
 import Contact from '@components/section/Contact';
-import Footer from '@components/section/Footer';
 import Navbar from '@components/common/Navbar/Navbar';
 import Hero from '@components/section/Hero';
 import React from 'react'
@@ -14,7 +13,6 @@ const PageLayouts = (props: Props) => {
       <Hero />
       <TryThis />
       <Contact />
-      <Footer />
     </>
   )
 }
