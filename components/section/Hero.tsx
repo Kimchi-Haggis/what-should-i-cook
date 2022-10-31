@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchBar from './../searchBar/SearchBar';
+import SearchBar from '../common/searchBar/SearchBar';
 
 type Props = {}
 
